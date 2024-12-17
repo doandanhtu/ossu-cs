@@ -67,8 +67,8 @@
     - Getting the length of the string
     - Indexing (In Python, index starts from 0 from the left and -1 from the right!)
     - Slicing:
-        - s[i:j] gives a portion of s from i to j-1
-        - s[i:j:k] gives a portion of s from i to j-1 with step k, negative k means step backwards.
+        - `s[i:j]` gives a portion of s from `i` to `j-1`
+        - `s[i:j:k]` gives a portion of s from `i` to `j-1` with step `k`, negative `k` means step backwards.
 
 ### Input/Output
 
