@@ -71,6 +71,12 @@
         - `s[i:j:k]` gives a portion of s from `i` to `j-1` with step `k`, negative `k` means step backwards.
 
 ### Input/Output
+- This is simply about `print()` and `input()` functions.
+
+### Control Flow
+- An introduction of while loop and for loop. The use of increment and the `range()` function.
+- `break` can be used to stop the entire loop.
+- Use `for` loops if know exactly when to stop and `while` loops if there can be an unpredictable condition to stop.
 
 
 
