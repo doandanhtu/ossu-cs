@@ -78,6 +78,17 @@
 - `break` can be used to stop the entire loop.
 - Use `for` loops if know exactly when to stop and `while` loops if there can be an unpredictable condition to stop.
 
+### Gues and check
+- 2 standard problems with using a loop:
+    - Don't initialize the variable
+    - Never reach the terminating condition
+- Guess-and-check class of algo (this process also known as **exhaustive enumeration**)
+    - **guess a value** for solution
+    - **check if the solution is correct**
+    - keep guessing until fund solution or guessed all values
+- GnC / exhaustive enumeration only works where there is a finite number of choices (that is able for the computer to process).
+
+
 
 
 

@@ -9,6 +9,7 @@
 ## Course Progress
 
 ### [1. Introduction to CS and Programming using Python - MIT](https://learning.edx.org/course/course-v1:MITx+6.00.1x+2T2018/home)
-- [ ] Week 1: Python Basics
+- [x] Week 1: Python Basics
+- [ ] Week 2: Simple Programs
 
 ---
