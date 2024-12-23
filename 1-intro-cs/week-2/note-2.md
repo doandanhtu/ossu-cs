@@ -28,7 +28,7 @@
 
 ### Newton-Raphson
 - General approximation algorithm to find roots of a polynomial in 1 variable
-    - Suppose we have $p(x) = a_n*x^n + a_n-1 * x^n-1 + ... + a_1 * x + a_0 $
+    - Suppose we have $p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0$
     - We want to find r such that p(r) = 0
     - If g is an approximation of r then a better approximation is: $g - p(g)/p'(g)$ where p' is derivative of p
 - This is a very efficient root finding algorithm.
@@ -63,3 +63,15 @@
 - Recursion is a programming technique where a **function calls itself**.
     - It must have **1 or more base cases** that are easy to solve
     - The problem needs to be able to be reduced into **simpler/smaller version** of same problem
+
+### Inductive Reasoning
+- Mathematical induction: To prove a statement indexed on integers is true for all values of n:
+    - Prove it is true when n is the smallest value (e.g., n = 0 or n = 1)
+    - Then prove that if it is true for an arbitrary value of n, it must be true for (n + 1)
+- We can apply the concept of mathematical induction to recursive codes:
+    - Does our base case do the right thing?
+    - Then assume that our code works correctly for the smaller problem, does it work correctly for the whole problem?
+
+### Towers of Hanoi
+- It's perfectly fine to have multiple recursive calls inside of a function body.
+- Some problems can be very hard to solve iteratively but elegantly easy to solve recursively.
