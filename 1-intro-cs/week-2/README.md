@@ -13,3 +13,8 @@
 | gcd-recur.py | Finding the greatest common divisor of two positive integers using recursion |
 | fib.py | Implementation of the famous Fibonacci |
 | palindrome.py | An example of using recursion for a non-numeric problem |
+| is-in.py | Implement a bisection search to search for a character in an alphabetical string |
+| remaining-balance.py | Week 2 pset 1 |
+| lowest-payment-1.py | Week 2 pset 2 |
+| lowest-payment-2.py | Week 2 pset 3 |
+
