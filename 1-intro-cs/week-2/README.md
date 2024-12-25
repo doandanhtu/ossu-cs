@@ -1,4 +1,4 @@
-### List of coding scripts
+### List of coding scripts in week 2
 | Name | Description |
 | --- | --- |
 | approx-sqrt.py | Implement an exhaustive algo to find the square root of an integer |
