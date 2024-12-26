@@ -90,5 +90,12 @@
     - **No order** to keys or values
 - Dictionaries offer a lot more capability in terms of what can be stored inside of them.
 
+### Fibonacci and Dictionaries
+- A dictionary can be used to improve the efficiency of a function via a method sometimes called **memoization**.
+- Instead of calculate all the values, we can store the values already calculated and do look up first.
+- For example, in the case of Fibonacci, f(n) = f(n-1) + f(n-2).
+    - f(n-1) = f(n-2) + f(n-3)
+    - we can look up the value of f(n-2) instead of recalculate it!
+
 
     
