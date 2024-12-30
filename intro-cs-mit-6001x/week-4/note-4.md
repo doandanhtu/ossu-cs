@@ -149,4 +149,27 @@ Design black box testing by considering:
 
 ## Exceptions and Assertions
 
+### Exceptions
+- Exceptions provide the ability to handle unexpected situations that occur during the execution of a program.
+- Examples of applications of exceptions may include:
+    - Validate user input: get the valid user input without disrupting the program.
+    - Handle file errors: ensure files are properly closed even if an error occurs
+    - Process data: get the data if it is correct, handling the case the data does not exist or is incorrect (e.g., by filling in a blank or a specific value)
+    - Control flow: raise an exception when unable to produce a result consistent with function's specification, return smth that makes sense for continuity of the program
+
+### Assertions
+- ensure that **assumptions** on state of computation are as expected
+- it could be on inputs or in any intermediate state of the program
+- use an `assert` statement to raise an `AssertionError` exception if assumptions not met
+- "I assert that the following should be true, otherwise, raise an exception."
+- Assertions as defensive programming:
+    - assertions don't allow a programmer to control response to unexpected conditions
+    - ensure that **execution stops** whenever an expected condition is not met
+    - typically used to **check inputs** to functions procedures, but can be used anywhere
+    - can be used to **check outputs** of a function to avoid propagating bad values
+    - can make it easier to locate a source of a bug
+
+
+
+
 
