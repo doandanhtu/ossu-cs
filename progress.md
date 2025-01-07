@@ -12,6 +12,7 @@
 - [x] Week 1: Python Basics
 - [x] Week 2: Simple Programs
 - [x] Week 3: Structured Types
-- [ ] Week 4: Good Programming Practices
+- [x] Week 4: Good Programming Practices
+- [ ] Week 5: Object Oriented Programming
 
 ---
