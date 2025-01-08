@@ -97,4 +97,24 @@
     - **add** more **data**
     - **add** more **behavior**
     - **override** behavior
+- **Instance Variables**
+    - specific to an instance
+    - created for **each instance**, belongs to an instance
+    - used the generic variable self within the class definition `self.variable_name`
+- **Class Variables**
+    - belong to the class
+    - defined inside class but outside any class methods, outside `__init__`
+    - **shared** among all objects/ instances of that class
 
+### Summary of Classes and OOP
+- **bundle together objects** that share
+    - common attributes and
+    - procedures that operate on those attributes
+- use **abstraction** to make a distinction between how to implement an object vs how to use the object
+- build **layers** of object abstractions that inherit behaviors from other classes of objects
+- create our **own classes of objects** on top of Python's basic classes
+
+## Applications of OOP
+- Build a hierarchy of a system to organize information in an efficient way.
+- Inheritance allows us to build modules that can easily interrelate.
+- A class variable can be used to define a unique ID for each instance of that class.
