@@ -80,3 +80,21 @@
 - Aliasing is typically error-prone so in general, it is safer to avoid aliasing.
 - Aliasing is not as much of a problem for immutable objects like strings.
 
+### Getters and Setters
+- Typically, we will define some get methods and some set methods to access and adjust the data attributes of a class.
+- It is considered a good practice to always use get() and set() rather than directly interacting with the data attributes of a class via the dot notation.
+- This is due to the practice of **hiding information** as we or more generally, the author of class definition, may later **change data attribute variable names** but it is less likely that the name of the get and set methods will be changed.
+- More generally, use getters and setters instead of the direct dot notation for:
+    - good style
+    - easy code maintenance
+    - reduction of bugs
+- For Python, it is actually more Pythonic to just directly access the data attributes as Python is not great at information hiding, and not enforce the use of getters and setters. Python allows for accessing, writing or even creating data attributes for an instance from outside of class definition. It's **not a good style** to do any of those!
+
+### Hierarchies
+- **parent class** (superclass)
+- **child class** (subclass)
+    - **inherits** all data and behaviors of parent class
+    - **add** more **data**
+    - **add** more **behavior**
+    - **override** behavior
+
