@@ -1,10 +1,10 @@
 # OSSU-CS Progress Tracker
 
 ## Notes
-- Last Updated: 2024-12-17
+- Last Updated: 2025-01-23
 - *Completed*: 0 courses
 - Current Course: Introduction to CS - MIT 6.00.1x
-- Goal: Complete course 1 within December 2024
+- Goal: Complete course 1 within January 2025
 
 ## Course Progress
 
@@ -13,6 +13,7 @@
 - [x] Week 2: Simple Programs
 - [x] Week 3: Structured Types
 - [x] Week 4: Good Programming Practices
-- [ ] Week 5: Object Oriented Programming
+- [x] Week 5: Object Oriented Programming
+- [ ] Week 6: Algorithmic Complexity
 
 ---
