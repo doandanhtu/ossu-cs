@@ -118,3 +118,26 @@
 - Build a hierarchy of a system to organize information in an efficient way.
 - Inheritance allows us to build modules that can easily interrelate.
 - A class variable can be used to define a unique ID for each instance of that class.
+
+### Flexibility
+- Group different classes with a similar aspect into a superclass to address that aspect
+- Alter the behaviour of multiple classes at once by editing their superclass
+- Alter the specific behaviour of a specific class without affecting classes in another branch or the superclass
+- We can create class that includes instances of other classes within it
+
+### Generators
+- A generator is a special kind of object that allows us to control the behavior of the program and hence, improve the efficiency.
+- Any procedure or method with `yield` statement is called a **generator**. 
+- Generators have a `next()` method to start or resume execution of the procedure. Inside of a generator:
+    - `yield` suspends execution and returns a value
+    - The next time `next()` is called, the generator will be executed to the next `yield()` method.
+    - If we run out of `yield()` method, then calling `next()` will raise a `StopIteration` exception.
+- The generators provide the ability to **only create things as needed**. Imagine the case we need to loop through a list of objects. However, objects in that list are created from other procedures. Without generators, we need to create the whole list first and then iterate on that list. Using generators, we only create the object when we need.
+- A popular example of generators is `range()`.
+
+### Further notes on generators
+- Everything that can be done with generator can be done with a function. However, we may want to use a generator because:
+    - we can ask the generator for the next item, one at a time, and
+    - we don't waste time computing values that we don't ultimately want (or won't want for a long time)
+- Generators are especially useful when dealing with **an unbounded sequence** (e.g., an unbounded sequence of fib or prime numbers).
+
