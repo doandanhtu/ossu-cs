@@ -29,5 +29,6 @@ while ans != 'c':
     elif ans == 'h':
         max = guess
     elif ans == 'c':
+        print('Game over. Your secret number was: ' + str(guess))
         break
     guess = int((min + max) / 2)
