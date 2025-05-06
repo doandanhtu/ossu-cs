@@ -17,4 +17,5 @@
 - [x] Week 6: Algorithmic Complexity
 - Completed on 6 Feb 2025
 
-### 
+### [2. Systematic Program Design - Part 1](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015/home)
+- [ ] 1a: Beginning Student Language
